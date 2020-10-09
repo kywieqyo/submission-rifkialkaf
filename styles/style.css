@@ -19,8 +19,8 @@
     padding: 60px;
     text-align: left;
     background: #132743 url("https://1.bp.blogspot.com/-DvXB58mhZ1I/X33MsLGPmUI/AAAAAAAAEuo/TB6cHhpRQL8X-C3DN60XdI2bHLdQBGRzQCLcBGAsYHQ/s0/bg-header-1.jpg");
-    background-size: cover;
-    color: #ff0000;
+    background-size: max-width: 513px;
+    color: #132743;
 }
 
 
@@ -132,7 +132,7 @@
 
 /* layout max lebar dropdown */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 513px) {
     .topnav a:not(:first-child),
     .dropdown .dropbtn {
         display: none;
@@ -202,15 +202,6 @@
     background-color: #f4eeff;
     padding: 20px;
     text-align: justify;
-}
-
-
-/* Fake Image */
-
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
 }
 
 
